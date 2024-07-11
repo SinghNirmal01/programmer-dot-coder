@@ -52,6 +52,9 @@ nav ul li a:hover {
     padding: 2rem;
     border-radius: 10px;
 }
+#name{
+  color:#F5951F;
+}
 
 .projects, .contact, .about {
     padding: 2rem;
