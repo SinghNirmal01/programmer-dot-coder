@@ -1,0 +1,117 @@
+* {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(90deg, #ff8c00, #ffa500, #ff8c00);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+nav ul li a:hover {
+    color: #404256;
+}
+
+.hero {
+    background: url('/src/hero-image.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.projects, .contact, .about {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2, .contact h2, .about h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    background: linear-gradient(135deg, #ff8c00 30%, #ffa500);
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: calc(90% - 2rem);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #ff8c00;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-item .btn:hover {
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+.contact a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(90deg, #ff8c00, #ffa500, #ff8c00);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
