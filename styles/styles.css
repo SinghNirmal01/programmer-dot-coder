@@ -33,7 +33,7 @@ nav ul li a {
     font-size: 0.8rem;
 }
 
-nav ul li a:hover {
+nav ul li a:active {
     color: #404256;
 }
 
@@ -101,7 +101,7 @@ nav ul li a:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.project-item .btn:hover {
+.project-item .btn:active{
     /* background-color: #E2943E; */
  
     color: #fff;
