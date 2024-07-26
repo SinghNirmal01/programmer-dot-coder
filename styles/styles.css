@@ -121,12 +121,12 @@ footer {
 }
 
 #ads-section{
-  background: white;
+  background:#737373;
   padding: 4px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   width:90%;
   margin:auto;
   font-weight: 600;
-  min-height: 105px;
-  
+  min-height: 305px;
+  border-radius: 20px;
 }
